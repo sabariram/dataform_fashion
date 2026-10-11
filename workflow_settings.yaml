@@ -1,5 +1,5 @@
 dataformCoreVersion: 3.0.0-beta.6
-defaultProject: winter-dataform
+defaultProject: fashiondataform
 defaultLocation: australia-southeast1
 defaultDataset: fashion
 defaultAssertionDataset: fashion_assertions
