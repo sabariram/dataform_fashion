@@ -13,13 +13,13 @@ An example Dataform project to load and transform the publicly available dataset
 
 Google Cloud projects form the basis for creating, enabling, and using all Google Cloud services, such as Dataform, BigQuery and the Retail API.
 
-If you do not already have a Google Cloud project for which you want to load the IMDB dataset into, then you will need to create a new Google Cloud project. The documentation on how to do this can be found [here](https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project).
+If you do not already have a Google Cloud project for which you want to load the H&M Fashion dataset into, then you will need to create a new Google Cloud project. The documentation on how to do this can be found [here](https://cloud.google.com/resource-manager/docs/creating-managing-projects#creating_a_project).
 
 Once you have a Google Cloud project, remember to take note of the Project Number and Project ID. These can be found on the Google Cloud project console welcome page, which you can find [here](https://console.cloud.google.com/welcome).
 
 ## Google Cloud Storage Bucket
 
-Now you have a Google Cloud project, you need to create a Google Cloud Storage Bucket for which the IMDB dataset will be uploaded into and Dataform will use to source the data in which to load data into BigQuery. The documentation on how to create a new storage bucket can be found [here](https://cloud.google.com/storage/docs/creating-buckets).
+Now you have a Google Cloud project, you need to create a Google Cloud Storage Bucket for which the H&M Fashion dataset will be uploaded into and Dataform will use to source the data in which to load data into BigQuery. The documentation on how to create a new storage bucket can be found [here](https://cloud.google.com/storage/docs/creating-buckets).
 
 Remeber to take note of the bucket name as this will be required for one of the Dataform config variables.
 
